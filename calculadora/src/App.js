@@ -1,12 +1,14 @@
-import './App.css';
-
+import "./App.css";
+import FormCalculator from "./components/FormCalculator";
+import AsideForm from "./components/AsideForm";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
+    <main className="App-header">
+      <section>
+        <FormCalculator />
+        <AsideForm />
+      </section>
+    </main>
   );
 }
 
