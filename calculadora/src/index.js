@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ApiResponseProvider } from './providers/ApiResponseProvider';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <ApiResponseProvider>
   <React.StrictMode>
     <App />
   </React.StrictMode>
+  </ApiResponseProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

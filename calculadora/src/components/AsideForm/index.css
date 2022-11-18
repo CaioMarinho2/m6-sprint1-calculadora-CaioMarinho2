@@ -8,7 +8,6 @@
 }
 
 h2 {
-
   font-size: 20px;
   color: #3f76bc;
   margin-bottom: 0px;
@@ -18,14 +17,16 @@ h2 {
   color: #9dc3f5;
   margin-top: 0px;
   font-size: 20px;
-
 }
 
-hr{
-    margin-top: 7px;
-    margin-right: 32px;
-    background-color: #cad4df;
-    width: 205px;
-    height: 1px;
-    border-style: none;
+hr {
+  margin-top: 7px;
+  margin-right: 32px;
+  background-color: #cad4df;
+  width: 205px;
+  height: 1px;
+  border-style: none;
+}
+
+@media (max-width: 826px) {
 }

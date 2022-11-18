@@ -10,5 +10,11 @@
 section {
   display: flex;
   flex-direction: row;
-  border: solid #E9EFF2 2px;
+  border: solid #e9eff2 2px;
+}
+
+@media (max-width: 826px) {
+  section {
+    flex-direction: column;
+  }
 }
